@@ -1,0 +1,96 @@
+
+#background {
+	background-image: url("images/bg3.jpg");
+	background-size: 100%;
+	height: 600px;
+	position: relative;
+}
+
+@font-face {
+	font-family: "logoFont";
+	src: url(fonts/LANENAR_.ttf);
+}
+
+#upper {
+	height: 100px;
+}
+
+#upper > div {
+	vertical-align: bottom;
+}
+
+#logo {
+	font-size: 2em;
+}
+
+#contact-upper {
+	top: 0.5em;
+	font-size: 1.5em;
+}
+
+.namename {
+	position: absolute;
+	left: 67%;
+	background-color: rgba(255, 255, 255, 1.0);
+
+	font-size: 5em;
+	line-height: 90%;
+	font-family: "logoFont";
+	color: #BBBBBB;
+}
+
+#contact{
+	position: absolute;
+	top: 35%;
+	left: 75%;
+
+	/*border: 2px solid white;*/
+	background: #AAAAAA;
+	text-decoration-color: rgba(0, 128, 128, 0);
+
+	font-size: 2em;
+}
+
+#contact-bar {
+	position: absolute;
+	top: 45%;
+	left: 77%;
+	border-radius: 10%;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 10px;
+}
+
+#contact-bar > p {
+	position: absolute;
+	left: 60px;
+	color: black;
+}
+
+.contact-logo {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+
+.description {
+	position: absolute;
+	left: 10%;
+	display: inline-block;
+}
+
+.des-image {
+	width: 100px;
+	height: auto;
+	display: inline-block;
+}
+
+.des-content {
+	position: absolute;
+	left: 120px;
+	top: 0px;
+	width: 600px;
+}
+
+.des-content > h2,p {
+	color: white;
+}
