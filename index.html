@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<title>Kamkam's Web Prog Archive</title>
-	<link rel="stylesheet" href="styles/index_style.css">
+	<link rel="stylesheet" href="index/styles/index_style.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
 
 <div id="index-header">
 	<p id="index-title">Kamkam's Web Prog Archive</p>
@@ -16,23 +16,121 @@
 
 <nav class="navbar navbar-fixed-left">
   <ul class="nav navbar-nav">
-   <li><a href="#">1: CSS <br>Animation Tutorial</a></li>
-   <li><a href="#">2: CSS <br>3D Transformation</a></li>
-   <li><a href="#">3: JS <br>Sticker Booth</a></li>
-   <li><a href="#">4: AJAX <br>Knowledge Search</a></li>
-   <li><a href="#">5: Web Design<br>My resume</a></li>
+   <li><a href="#animate">1: CSS <br>Animation Tutorial</a></li>
+   <li><a href="#transform">2: CSS <br>3D Transformation</a></li>
+   <li><a href="#sticker">3: JS <br>Photo Booth</a></li>
+   <li><a href="#knowledge">4: AJAX <br>Knowledge Search</a></li>
+   <li><a href="#resume">5: Web Design<br>My resume</a></li>
   </ul>
 </nav>
 
-<div class="container" id="index-content">
-	<div class="row">
-		<div class="col-md-5">
-		<img class="img-responsive img-rounded" src="images/index/capture01.png">
-		</div>
-		<div class="col-md-7">
-			Animation Tutorial
+<div id="index-content">
+	<br>
+	<span class="anchor" id="animate">...</span>
+	<div class="container-fluid homework color1">
+		<div class="row" id="homework">
+			<div class="col-md-5">
+			<a href="http://kamkamwebapp.azurewebsites.net/animation-tutorial.html">
+				<img class="img-responsive img-rounded" src="index/images/capture01.png">
+			</a>
+			</div>
+			<div class="col-md-7">
+				<br>
+				<h6>Week 1</h6>
+				<a href="http://kamkamwebapp.azurewebsites.net/animation-tutorial.html">
+					<h1>Animation Tutorial</h1>
+				</a>
+				<p>Skills: HTML, CSS</p>
+				<p>A tutorial webpage contains instruction for making simple animation with CSS3 (no Javascript required). In this tutorial, we explain how to make cute characters walk back and forth.</p>
+				<p>*Collaboration work with Tutor</p>
+			</div>
 		</div>
 	</div>
+
+	<span class="anchor" id="transform"></span>
+	<div class="homework color1">
+		<div class="row">
+			<div class="col-md-5">
+			<a href="http://kamkamwebapp.azurewebsites.net/3d-transform.html">
+				<img class="img-responsive img-rounded" src="index/images/capture02.png">
+			</a>
+			</div>
+			<div class="col-md-7">
+				<br>
+				<h6>Week 2</h6>
+				<a href="http://kamkamwebapp.azurewebsites.net/3d-transform.html">
+					<h1>3D Transformation</h1>
+				</a>
+				<p>Skills: HTML, CSS</p>
+				<p>In this week, we are assigned to make objects in webpage transformed in multiple forms. Feel free and fun to move your cursor on every object in this webpage!
+			</div>
+		</div>
+	</div>
+
+	<span class="anchor" id="sticker"></span>
+	<div class="homework color1">
+		<div class="row" id="homework">
+			<div class="col-md-5">
+			<a href="http://kamkamwebapp.azurewebsites.net/animation-tutorial.html">
+				<a href="http://kamkamwebapp.azurewebsites.net/photobooth.html">
+					<img class="img-responsive img-rounded" src="index/images/capture03.png">
+				</a>
+			</a>
+			</div>
+			<div class="col-md-7">
+				<br>
+				<h6>Week 3</h6>
+				<a href="http://kamkamwebapp.azurewebsites.net/photobooth.html">
+					<h1>Photo Booth</h1>
+				</a>
+				<p>Skills: HTML, CSS, Javascript (JQuery)</p>
+				<p>Let's enjoy with photo booth which you can take your photo and put funny stickers onto your face. Click on stickers on right panel and edit it: move (using arrow keys), resize (using +/- keys), rotate (using shift + L/R arrow keys), and delete (using delete or fn+delete key in Mac). Moreover you can retake photo as many times as you want.</p>
+				<p>**Please open this page in Mozilla Firefox**</p>
+			</div>
+		</div>
+	</div>
+
+	<span class="anchor" id="knowledge"></span>
+	<div class="homework color1">
+		<div class="row">
+			<div class="col-md-5">
+			<a href="http://kamkamwebapp.azurewebsites.net/knowledge-search.html">
+				<img class="img-responsive img-rounded" src="index/images/capture04.png">
+			</a>
+			</div>
+			<div class="col-md-7">
+				<br>
+				<h6>Week 4</h6>
+				<a href="http://kamkamwebapp.azurewebsites.net/knowledge-search.html">
+					<h1>Knowledge Search</h1>
+				</a>
+				<p>Skills: HTML, CSS, Javscript, JSON, Google API</p>
+				<p>Explore the world by searching through Google knowledge graph. You can view original webpage of the image by clicking on it.</p>
+			</div>
+		</div>
+	</div>
+
+	<span class="anchor" id="resume"></span>
+	<div class="homework color1">
+		<div class="row">
+			<div class="col-md-5">
+			<a href="http://kamkamwebapp.azurewebsites.net/resume.html">
+				<img class="img-responsive img-rounded" src="index/images/capture05.png">
+			</a>
+			</div>
+			<div class="col-md-7">
+				<br>
+				<h6>Week 5</h6>
+				<a href="http://kamkamwebapp.azurewebsites.net/resume.html">
+					<h1>My resume</h1>
+				</a>
+				<p>Skills: HTML, CSS, Web design</p>
+				<p>With new knowledge on web design, you will see my resume more interesting!</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	
 </div>
 </body>
 </html>

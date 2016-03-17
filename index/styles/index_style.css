@@ -4,9 +4,9 @@ body {
 }
 
 #index-header {
-	background-color: #BEF1DD;
+	background-color: #BEF193;
 	width: 100%;
-	height: auto;
+	height: 8%;
 	position: fixed;
 	z-index: 10;
 }
@@ -14,12 +14,19 @@ body {
 #index-title {
 	position: relative;
 	margin: 0% 5%;
-	left: 5%;
-	font-size: 3em;
+	text-align: center;
+	font-size: 3.5em;
+	font-family: "Typo-Crayon";
+	color: #7D7F7D;
+}
+
+@font-face {
+	font-family: 'Typo-Crayon';
+	src: url("Typo_CrayonM.ttf");
 }
 
 .navbar-fixed-left {
-  width: 140px;
+  width: 15%;
   position: fixed !important;
   border-radius: 0;
   height: 100%;
@@ -28,14 +35,54 @@ body {
 
 .navbar-fixed-left .navbar-nav > li {
   float: none;  /* Cancel default li float: left */
-  width: 150px;
+  width: 100%;
 }
 
-.navbar-fixed-left + .container {
-  padding-left: 100px;
+.navbar-fixed-left + #index-content {
+  padding-left: 0px;
 }
 
 #index-content {
-	position: relative;
-	top: 100px;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	width: 85%;
+}
+
+.homework {
+	padding: 20px 20px 20px 20px;
+	margin: 10px 0px;
+	overflow: hidden;
+}
+
+.color1 {
+	background-color: #D1FAA7;
+}
+
+.anchor {
+	display: block;
+	padding-top: 5%; 
+	margin-top: -5%; 
+	visibility: hidden;
+}
+
+#index-content h1 {
+	color: #F56C7C;
+}
+
+#index-content h6 {
+	color: #939D70;
+}
+
+#index-content img:hover {
+	opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+#index-content a:hover {
+	text-decoration: none;
+}
+
+#index-content h1:hover {
+	color: #FF7E93;
 }
