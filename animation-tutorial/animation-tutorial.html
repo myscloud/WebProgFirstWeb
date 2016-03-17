@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>MY BLOG | #WEBSITE in 1 HOUR# </title>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Kanit&subset=thai,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/myweb.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<div class="menu"><center>
+	<a class="button" href="#">HOME</a>
+	<a class="button" href="#res">ผลลัพธ์</a>
+	<a class="button" href="#ins">ขั้นตอน</a>
+</center>
+</div> 
+
+<div class="content">
+<h1>HOW TO DO THE ANIMATION ON CSS :3 </h1>
+	
+	<h2 id="res">นี่คือสิ่งที่เราจะได้ !!! </h2>
+		<p class="article">
+			<div style="width:100%">
+				<img src="images/rockman.gif" class="movemove">
+			</div>
+
+			<div style="width:100%">
+				<img src="images/man.gif" class="movemove">
+			</div>
+
+			<div style="width:100%">
+				<img src="images/totoro.gif" class="movemove">
+			</div>
+		</p>
+
+
+	<h2>มันคืออะไร</h2>
+		<p class="article">
+		ในบทเรียนนี้ ผู้เรียนจะได้ทดลองทำ Animation ด้วย CSS นั่นเอง จริงๆแล้ว ดูเหมือนจะยาก แต่มันไม่ยากนะ ลองมาทำตามกันได้ 
+		</p>
+
+	<h2>Requirement</h2>
+		<p class="article">
+		<ol>
+		  <li>ความรู้เบื่องต้น HTML (ง่ายๆหน่าา ) </li>
+		  <li>Text Editor ดีๆซักตัว </li>
+		  <li>ความอยากเรียนรู้ไงง :D </li>
+		</ol>
+		</p>
+
+
+		<h2 id="ins">ขั้นตอน !</h2>
+		<p class="article">
+		<ol>
+		  <li>สร้างเอกสาร HTML เบื้องต้นดังนี้ 
+		  		<xmp><html>
+<head>
+	<title>ทดสอบหัวข้อเว็บ</title>
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	เนื้อหาเราจะลงตรงนี้
+</body>
+</html>
+		  		</xmp>
+		  </li>
+		  
+		  	
+		  <li>มาตกแต่ง Style ต่างๆ ลงไปใน File CSS</li>
+		  <li>ถึงขั้นตอนสำคัญแล้ว ! 
+		  		<ol>
+		  			ใน File CSS เราจะต้องกำหนดลักษณะต่างๆดังนี้ 
+		  			<xmp>.movemove{
+	animation: gogo 3s ease-in infinite;
+	animation-direction: reverse;
+	padding-left: 100px;
+}
+
+@keyframes gogo {
+  0% { transform: translate(100%, 0); }	
+  45% { transform: translate(10%, 0); }
+  55% { transform: rotateY(180deg) translate(10%, 0); }
+  100% { transform: translate(100%, 0) rotateY(180deg); }
+}
+		  			</xmp>
+		  			<li>
+		  				ส่วน .movemove ใส่ Attribute ที่ชื่อ Animation เพื่อสั่งให้มีการเคลื่อนที่ตามเวลา และ Keyframe ที่ชื่อ gogo
+		  			</li>
+		  			<li>
+		  				สร้าง keyframe gogo โดยกำหนดให้ เวลาเป็น % และกำหนดท่าทางในแต่ละช่วงเวลา ด้วย Attribute transform 
+		  			</li>
+
+		  			<li>
+		  				เพียงเท่านี้ ก็จะได้ Animation เก๋ๆ แบบไม่ต้องใช้ Javascript แล้น ! 
+		  			</li>
+				</ol>
+
+		  </li>
+		</ol>
+		</p>
+
+<hr>
+</div>
+
+<div class="footer">
+	Copyright 2016 &copy; | KAMKAM & iTUTOR <br>
+	<pre>นาย เทพสิทธิ์ นิสิตสุขเจริญ 5530201621<br>นางสาว ชลธร ขวัญขจรเกียรติ 5531015421 <br>เว็บเพ็จนี้ เป็นชิ้นงาน ในรายวิชา Web programming <br>ภาควิชาวิศวกรรมคอมพิวเตอร์ จุฬาลงกรณ์มหาวิทยาลัย</pre>
+</div>
+
+</body>
+</html>

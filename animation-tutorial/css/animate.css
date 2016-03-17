@@ -1,0 +1,14 @@
+
+
+.movemove{
+	animation: gogo 3s ease-in infinite;
+	animation-direction: reverse;
+	padding-left: 100px;
+}
+
+@keyframes gogo {
+  0% { transform: translate(100%, 0); }	
+  45% { transform: translate(10%, 0); }
+  55% { transform: rotateY(180deg) translate(10%, 0); }
+  100% { transform: translate(100%, 0) rotateY(180deg); }
+}

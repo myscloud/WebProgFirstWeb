@@ -1,0 +1,41 @@
+
+body {
+	background-color: #D5F1D8 !important;
+}
+
+#index-header {
+	background-color: #BEF1DD;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 10;
+}
+
+#index-title {
+	position: relative;
+	margin: 0% 5%;
+	left: 5%;
+	font-size: 3em;
+}
+
+.navbar-fixed-left {
+  width: 140px;
+  position: fixed !important;
+  border-radius: 0;
+  height: 100%;
+  top: 100px;
+}
+
+.navbar-fixed-left .navbar-nav > li {
+  float: none;  /* Cancel default li float: left */
+  width: 150px;
+}
+
+.navbar-fixed-left + .container {
+  padding-left: 100px;
+}
+
+#index-content {
+	position: relative;
+	top: 100px;
+}
